@@ -1,0 +1,24 @@
+let mark = parseInt(0);
+let count = parseInt(0);
+let a = prompt("2+5=")
+if (a == "7") count++;
+a = prompt("2+5=");
+if (a == "7") count++;
+a = prompt("2+5=");
+if (a == "7") count++;
+a = prompt("2+5=");
+if (a == "7") count++;
+a = prompt("2+5=");
+if (a == "7") count++;
+a = prompt("2+5=");
+if (a == "7") count++;
+a = prompt("2+5=");
+if (a == "7") count++;
+a = prompt("2+5=");
+if (a == "7") count++;
+a = prompt("2+5=");
+if (a == "7") count++;
+a = prompt("2+5=");
+if (a == "7") count++;
+mark = (count-count%2)/2;
+alert("Ваша оценка: " + mark);
